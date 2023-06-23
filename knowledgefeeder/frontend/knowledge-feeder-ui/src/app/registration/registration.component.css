@@ -1,0 +1,23 @@
+.text-center{
+    display: table;
+    margin: 0 auto;
+}
+.title{
+padding: 25px;
+font-weight:bold;
+color:gray;
+}
+.register-form{
+  display: inline-block;
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+.full-width {
+  width: 100%;
+}
+
+.additional-selection {
+  opacity: 0.75;
+  font-size: 0.75em;
+}

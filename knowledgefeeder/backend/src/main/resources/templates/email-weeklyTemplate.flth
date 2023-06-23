@@ -1,0 +1,9 @@
+<html>
+<head></head>
+<body>
+    <p>Dear ${name},</p>
+    <p>Here is your ounce for this week - </b>${docUrl}</b></p>
+    <p>Thanks</p>
+
+</body>
+</html>
