@@ -34,10 +34,10 @@ private Logger LOGGER = LoggerFactory.getLogger(EmailService.class.getName());
 
     public HttpStatusCode sendEmail(User user, String docUrl){
         List<EmailData> toMails = new ArrayList<>();
-        //toMails.add(new EmailData(user.getEmailAddress(),user.getFirstName()));
+        toMails.add(new EmailData(user.getEmailAddress(),user.getFirstName()));
 
         List<EmailData> bccMails = new ArrayList<>();
-        bccMails.add(new EmailData(user.getEmailAddress(),user.getFirstName()));
+        //bccMails.add(new EmailData(user.getEmailAddress(),user.getFirstName()));
 
         String subject = "Feeding knowledge as per your interest. Enrich yourself.";
 
