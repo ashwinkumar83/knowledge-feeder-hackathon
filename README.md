@@ -3,6 +3,7 @@ knowledge-feeder-hackathon
 
 # Prerequisites
 ** Mongo DB
+  - Install mongo db and configure the properties
 ** To run the document scraper service, the webdriver should be passed as vm arguments when starting the springboot application ( as per your OS)
 -Dwebdriver.chrome.driver="E:\\chromedriver_win32\\chromedriver.exe"
 
